@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { FiTrash2, FiPlus } from 'react-icons/fi'
 import { nanoid } from 'nanoid'
 
-import homeImagem from '../../assets/imgHome.svg'
+import imgComentarios from '../../assets/imgComentarios.svg'
 
 import styles from './comments.module.css'
 
@@ -52,7 +52,7 @@ const Comments = () => {
         <h1>
           Deixe um comentário
         </h1>
-        <img src={homeImagem} />
+        <img src={imgComentarios} />
       </div>
      
       <div className={styles.inputContainer}>
